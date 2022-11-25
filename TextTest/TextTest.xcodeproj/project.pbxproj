@@ -8,21 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		192B68AF293056DE009A0961 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 192B68AE293056DE009A0961 /* AppDelegate.m */; };
-		192B68B2293056DE009A0961 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 192B68B1293056DE009A0961 /* SceneDelegate.m */; };
 		192B68B5293056DE009A0961 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 192B68B4293056DE009A0961 /* ViewController.m */; };
 		192B68B8293056DE009A0961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192B68B6293056DE009A0961 /* Main.storyboard */; };
 		192B68BA293056E1009A0961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192B68B9293056E1009A0961 /* Assets.xcassets */; };
 		192B68BD293056E1009A0961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192B68BB293056E1009A0961 /* LaunchScreen.storyboard */; };
 		192B68C0293056E1009A0961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 192B68BF293056E1009A0961 /* main.m */; };
 		192B68CA293057F2009A0961 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 192B68C8293057F2009A0961 /* UIView+YYAdd.m */; };
+		192B68CD29305D69009A0961 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 192B68CC29305D69009A0961 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		192B68AA293056DE009A0961 /* TextTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		192B68AD293056DE009A0961 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		192B68AE293056DE009A0961 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		192B68B0293056DE009A0961 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		192B68B1293056DE009A0961 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		192B68B3293056DE009A0961 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		192B68B4293056DE009A0961 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		192B68B7293056DE009A0961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,6 +31,8 @@
 		192B68C7293057F2009A0961 /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
 		192B68C8293057F2009A0961 /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
 		192B68C9293057F2009A0961 /* YYCategoriesMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCategoriesMacro.h; sourceTree = "<group>"; };
+		192B68CB29305D69009A0961 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		192B68CC29305D69009A0961 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +68,8 @@
 				192B68C6293057E7009A0961 /* Util */,
 				192B68AD293056DE009A0961 /* AppDelegate.h */,
 				192B68AE293056DE009A0961 /* AppDelegate.m */,
-				192B68B0293056DE009A0961 /* SceneDelegate.h */,
-				192B68B1293056DE009A0961 /* SceneDelegate.m */,
+				192B68CB29305D69009A0961 /* TestViewController.h */,
+				192B68CC29305D69009A0961 /* TestViewController.m */,
 				192B68B3293056DE009A0961 /* ViewController.h */,
 				192B68B4293056DE009A0961 /* ViewController.m */,
 				192B68B6293056DE009A0961 /* Main.storyboard */,
@@ -165,7 +165,7 @@
 				192B68AF293056DE009A0961 /* AppDelegate.m in Sources */,
 				192B68C0293056E1009A0961 /* main.m in Sources */,
 				192B68CA293057F2009A0961 /* UIView+YYAdd.m in Sources */,
-				192B68B2293056DE009A0961 /* SceneDelegate.m in Sources */,
+				192B68CD29305D69009A0961 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,8 +314,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,8 +341,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
