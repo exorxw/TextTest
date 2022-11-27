@@ -55,11 +55,14 @@
     snowflake.contents = (id)[[UIImage imageNamed:@"img_iap_snow"] CGImage];
     // 设置雪花形状的粒子的颜色
     snowflake.color = [[UIColor whiteColor] CGColor];
+    //缩放范围
+    snowflake.scaleRange = 0.5f;
+    snowflake.scale = 0.05f;
     
     // 创建雪花类型的粒子
     CAEmitterCell *snowflake2 = [CAEmitterCell emitterCell];
     // 粒子的名字
-    snowflake2.name = @"iapsnow";
+    snowflake2.name = @"iapsnow2";
     // 粒子参数的速度乘数因子
     snowflake2.birthRate = 15.0;  //每秒生成数量
     snowflake2.lifetime = 28;        //生存时间
@@ -76,10 +79,10 @@
     snowflake2.contents = (id)[[UIImage imageNamed:@"btn_home_gift_temp"] CGImage];
     // 设置雪花形状的粒子的颜色
     snowflake2.color = [[UIColor whiteColor] CGColor];
-    
     //缩放范围
-    snowflake.scaleRange = 0.5f;
-    snowflake.scale = 0.05f;
+    snowflake2.scaleRange = 0.5f;
+    snowflake2.scale = 0.05f;
+    
     snowEmitter.shadowOpacity = 0.8;
     snowEmitter.shadowRadius = 0.0;
     snowEmitter.shadowOffset = CGSizeMake(0.0, 0.0);
