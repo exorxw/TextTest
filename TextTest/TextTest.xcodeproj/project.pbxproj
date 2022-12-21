@@ -15,6 +15,9 @@
 		192B68C0293056E1009A0961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 192B68BF293056E1009A0961 /* main.m */; };
 		192B68CA293057F2009A0961 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 192B68C8293057F2009A0961 /* UIView+YYAdd.m */; };
 		192B68CD29305D69009A0961 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 192B68CC29305D69009A0961 /* TestViewController.m */; };
+		19D96378295304F900003E18 /* Loverboy.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 19D96376295304F900003E18 /* Loverboy.TTF */; };
+		19D96379295304F900003E18 /* ShermlockOpen.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19D96377295304F900003E18 /* ShermlockOpen.ttf */; };
+		19D9637B295305BA00003E18 /* LikeSnow-6YG8A.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19D9637A295305BA00003E18 /* LikeSnow-6YG8A.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		192B68C9293057F2009A0961 /* YYCategoriesMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCategoriesMacro.h; sourceTree = "<group>"; };
 		192B68CB29305D69009A0961 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		192B68CC29305D69009A0961 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		19D96376295304F900003E18 /* Loverboy.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = Loverboy.TTF; sourceTree = "<group>"; };
+		19D96377295304F900003E18 /* ShermlockOpen.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ShermlockOpen.ttf; sourceTree = "<group>"; };
+		19D9637A295305BA00003E18 /* LikeSnow-6YG8A.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LikeSnow-6YG8A.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,7 @@
 		192B68AC293056DE009A0961 /* TextTest */ = {
 			isa = PBXGroup;
 			children = (
+				19D963752953043F00003E18 /* Font */,
 				192B68C6293057E7009A0961 /* Util */,
 				192B68AD293056DE009A0961 /* AppDelegate.h */,
 				192B68AE293056DE009A0961 /* AppDelegate.m */,
@@ -89,6 +96,16 @@
 				192B68C9293057F2009A0961 /* YYCategoriesMacro.h */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		19D963752953043F00003E18 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				19D9637A295305BA00003E18 /* LikeSnow-6YG8A.ttf */,
+				19D96376295304F900003E18 /* Loverboy.TTF */,
+				19D96377295304F900003E18 /* ShermlockOpen.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,8 +165,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19D96379295304F900003E18 /* ShermlockOpen.ttf in Resources */,
 				192B68BD293056E1009A0961 /* LaunchScreen.storyboard in Resources */,
 				192B68BA293056E1009A0961 /* Assets.xcassets in Resources */,
+				19D96378295304F900003E18 /* Loverboy.TTF in Resources */,
+				19D9637B295305BA00003E18 /* LikeSnow-6YG8A.ttf in Resources */,
 				192B68B8293056DE009A0961 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
